@@ -1,0 +1,459 @@
+[2026-11-05T11:33:20Z WARN  game::settings] unknown option --patch
+[2026-11-05T11:33:20Z WARN  game::settings] unknown option Unlock All Characters and Stages
+[2026-11-05T11:33:20Z INFO  game::settings] [settings] Settings { width: 1920, height: 1080, fullscreen: true, fps60: false, widescreen: true, msaa: 1, iso: Some("C:\\Users\\irish\\Desktop\\pc-ports\\super-smash-bros-melee-pc-port\\Super Smash Bros. Melee (USA) (Rev 2).iso"), online: None, delay: 4, vsync: true }
+[2026-11-05T11:33:20Z INFO  gcrecomp_core::runtime::sdk::os] OSInit called
+[2026-11-05T11:33:20Z INFO  gcrecomp_core::runtime::sdk::os] OSInit complete: arena ready, timer started
+[2026-11-05T11:33:20Z INFO  gcrecomp_core::runtime::sdk::os] No disc assets embedded; DVD filesystem disabled.
+[2026-11-05T11:33:20Z INFO  game] Disc image: C:\Users\irish\Desktop\pc-ports\super-smash-bros-melee-pc-port\Super Smash Bros. Melee (USA) (Rev 2).iso
+[2026-11-05T11:33:20Z INFO  game::disc] Disc GALE01 mounted: FST 1212 entries at 0x817F8AC0
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named GXFlush
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named GXDrawDone
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named CARDDelete
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named CARDGetSectorSize
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named CARDCreate
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named CARDCheck
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named CARDFastDelete
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named CARDMount
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named LCLoadData
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named CARDSetStatus
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named CARDGetSerialNo
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named DVDGetCommandBlockStatus
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named LCQueueLength
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named CARDFormat
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named CARDRename
+[2026-11-05T11:33:20Z WARN  gcrecomp_core::runtime::hle] HLE: no recompiled symbol named DVDReadPrio
+[2026-11-05T11:33:20Z INFO  gcrecomp_core::runtime::hle] HLE: installed 59 hooks
+[2026-11-05T11:33:20Z INFO  game::settings] [settings] patch on: 16:9 Widescreen
+[2026-11-05T11:33:20Z INFO  game::settings] [settings] patch on: Unlock All Characters and Stages
+[2026-11-05T11:33:20Z INFO  game] Running recompiled entry point 0x8000522C
+[2026-11-05T11:33:20Z INFO  game::OSReport] 
+    Dolphin OS $Revision: 47 $.
+[2026-11-05T11:33:20Z INFO  game::OSReport] Kernel built : Nov 12 2001 01:46:17
+[2026-11-05T11:33:20Z INFO  game::OSReport] Console Type :
+[2026-11-05T11:33:20Z INFO  game::OSReport] Retail 1
+[2026-11-05T11:33:20Z INFO  game::OSReport] Memory 24 MB
+[2026-11-05T11:33:20Z INFO  game::OSReport] Arena : 0x804eec00 - 0x817f8ac0
+[2026-11-05T11:33:20Z INFO  game::OSReport] app booted from bootrom
+[2026-11-05T11:33:20Z INFO  game::card] [card] loaded SuperSmashBros0110290334 (11 blocks)
+[2026-11-05T11:33:20Z INFO  game::card] [card] slot A: 1 file(s) in C:\Users\irish\Desktop\pc-ports\super-smash-bros-melee-pc-port\saves\card_a
+[2026-11-05T11:33:20Z INFO  game::audio] AX ready (host mixer)
+[2026-11-05T11:33:20Z INFO  game::audio] Audio output: 32000 Hz stereo
+[2026-11-05T11:33:20Z INFO  wgpu_hal::vulkan::instance] Debug utils not enabled: debug_utils_user_data not passed to Instance::from_raw
+[2026-11-05T11:33:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-05T11:33:20Z INFO  wgpu_core::instance] Adapter Vulkan AdapterInfo { name: "NVIDIA GeForce GTX 1660 SUPER", vendor: 4318, device: 8644, device_type: DiscreteGpu, driver: "NVIDIA", driver_info: "621.01", backend: Vulkan }
+[2026-11-05T11:33:20Z INFO  game::gx_render] [gx] GPU: NVIDIA GeForce GTX 1660 SUPER (Vulkan)
+[2026-11-05T11:33:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-05T11:33:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-05T11:33:20Z INFO  game::gx_render] [gx] surface format Bgra8Unorm (offered [Bgra8UnormSrgb, Rgba8UnormSrgb, Bgra8Unorm, Rgba8Unorm])
+[2026-11-05T11:33:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-05T11:33:20Z INFO  game::gx_render] [gx] present mode Mailbox (available [Fifo, FifoRelaxed, Mailbox, Immediate])
+[2026-11-05T11:33:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-05T11:33:20Z INFO  game::gx_render] [gx] MSAA 1x
+[2026-11-05T11:33:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-05T11:33:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-05T11:33:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-05T11:33:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-05T11:33:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2026-11-05T11:33:21Z INFO  game::audio] [audio] peak level over last second: 0
+[2026-11-05T11:33:21Z INFO  game::OSReport] # ---------------------------------------------
+[2026-11-05T11:33:21Z INFO  game::OSReport] #    Super Smash Bros. Melee
+[2026-11-05T11:33:21Z INFO  game::OSReport] #
+[2026-11-05T11:33:21Z INFO  game::OSReport] # Distribution 1
+[2026-11-05T11:33:21Z INFO  game::OSReport] # Language 1
+[2026-11-05T11:33:21Z INFO  game::OSReport] # DbLevel 0
+[2026-11-05T11:33:21Z INFO  game::OSReport] # Arena Size 19 MB
+[2026-11-05T11:33:21Z INFO  game::OSReport] # ARAM Free Size 9 MB
+[2026-11-05T11:33:21Z INFO  game::OSReport] # DATE Feb 13 2002  TIME 22:06:27
+[2026-11-05T11:33:21Z INFO  game::OSReport] # GC Calendar Year 2000 Month 1 Day 1
+[2026-11-05T11:33:21Z INFO  game::OSReport] #             Hour 0 Min 0 Sec 1
+[2026-11-05T11:33:21Z INFO  game::OSReport] #
+[2026-11-05T11:33:21Z INFO  game::gx_host] [gx] frame 0: 0 draws, 0 vertices, 0 texture binds; per frame: fifo 68ns, convert 0ns, wall 11.835817ms (gap 1.4s..1.4s), decodes 0
+[2026-11-05T11:33:22Z INFO  game::gx_render] [gx] pipeline cache: compiled 609 pipelines from C:\Users\irish\Desktop\pc-ports\super-smash-bros-melee-pc-port\cache\GALE01.pipelines in 436.9667ms
+[2026-11-05T11:33:22Z INFO  game::audio] [audio] peak level over last second: 7
+[2026-11-05T11:33:23Z INFO  game::audio] [audio] peak level over last second: 12004
+[2026-11-05T11:33:24Z INFO  game::audio] [audio] peak level over last second: 12011
+[2026-11-05T11:33:24Z INFO  game::gx_host] [gx] frame 120: 317 draws, 3171 vertices, 321 texture binds; per frame: fifo 162.067µs, convert 251.241µs, wall 24.236391ms (gap 31.9µs..468.5ms), decodes 1
+[2026-11-05T11:33:24Z INFO  game::gx_render] [gx] render: 4.59734ms per presented frame (acquire 16.29µs, build 232.875µs [lookups 59.727µs verts 50.805µs buffers 108.823µs], new pipelines 0 in 0ns, submit+present 699.291µs)
+[2026-11-05T11:33:25Z INFO  game::audio] [audio] peak level over last second: 13117
+[2026-11-05T11:33:26Z INFO  game::audio] [audio] peak level over last second: 13883
+[2026-11-05T11:33:26Z INFO  game::gx_host] [gx] frame 240: 326 draws, 3223 vertices, 330 texture binds; per frame: fifo 402.04µs, convert 287.659µs, wall 16.686735ms (gap 15.6ms..17.7ms), decodes 0
+[2026-11-05T11:33:26Z INFO  game::gx_render] [gx] render: 1.456618ms per presented frame (acquire 17.161µs, build 297.921µs [lookups 31.363µs verts 72.677µs buffers 166.285µs], new pipelines 0 in 0ns, submit+present 1.133998ms)
+[2026-11-05T11:33:27Z INFO  game::audio] [audio] peak level over last second: 18150
+[2026-11-05T11:33:28Z INFO  game::audio] [audio] peak level over last second: 11474
+[2026-11-05T11:33:28Z INFO  game::gx_host] [gx] frame 360: 358 draws, 3423 vertices, 362 texture binds; per frame: fifo 427.465µs, convert 306.459µs, wall 16.685004ms (gap 15.7ms..17.6ms), decodes 0
+[2026-11-05T11:33:28Z INFO  game::gx_render] [gx] render: 1.48228ms per presented frame (acquire 19.127µs, build 336.351µs [lookups 34.017µs verts 84.7µs buffers 189.005µs], new pipelines 0 in 0ns, submit+present 1.119017ms)
+[2026-11-05T11:33:29Z INFO  game::audio] [audio] peak level over last second: 13534
+[2026-11-05T11:33:30Z INFO  game::audio] [audio] peak level over last second: 19047
+[2026-11-05T11:33:30Z INFO  game::gx_host] [gx] frame 480: 425 draws, 4324 vertices, 429 texture binds; per frame: fifo 483.698µs, convert 363.696µs, wall 16.82434ms (gap 15.8ms..33.8ms), decodes 0
+[2026-11-05T11:33:30Z INFO  game::gx_render] [gx] render: 1.230478ms per presented frame (acquire 17.42µs, build 317.557µs [lookups 38.788µs verts 99.731µs buffers 147.209µs], new pipelines 0 in 0ns, submit+present 887.032µs)
+[2026-11-05T11:33:31Z INFO  game::audio] [audio] peak level over last second: 14409
+[2026-11-05T11:33:32Z INFO  game::audio] [audio] peak level over last second: 16001
+[2026-11-05T11:33:33Z INFO  game::gx_host] [gx] frame 600: 540 draws, 9013 vertices, 224 texture binds; per frame: fifo 500.186µs, convert 408.761µs, wall 21.017197ms (gap 12.0ms..543.3ms), decodes 0
+[2026-11-05T11:33:33Z INFO  game::gx_render] [gx] render: 1.51822ms per presented frame (acquire 42.896µs, build 759.67µs [lookups 46.675µs verts 197.916µs buffers 473.605µs], new pipelines 0 in 0ns, submit+present 706.381µs)
+[2026-11-05T11:33:33Z INFO  game::audio] [audio] peak level over last second: 23553
+[2026-11-05T11:33:34Z INFO  game::audio] [audio] peak level over last second: 17279
+[2026-11-05T11:33:35Z INFO  game::gx_host] [gx] frame 720: 594 draws, 9954 vertices, 264 texture binds; per frame: fifo 548.661µs, convert 470.941µs, wall 16.794044ms (gap 15.4ms..30.2ms), decodes 0
+[2026-11-05T11:33:35Z INFO  game::gx_render] [gx] render: 1.454542ms per presented frame (acquire 21.365µs, build 664.653µs [lookups 53.7µs verts 283.241µs buffers 279.405µs], new pipelines 0 in 0ns, submit+present 758.104µs)
+[2026-11-05T11:33:35Z INFO  game::audio] [audio] peak level over last second: 22202
+[2026-11-05T11:33:35Z INFO  game::vi] [vi] 600 frames: game busy 16.8 ms/frame avg, 324 skipped fields
+[2026-11-05T11:33:36Z INFO  game::audio] [audio] peak level over last second: 22581
+[2026-11-05T11:33:37Z INFO  game::gx_host] [gx] frame 840: 630 draws, 10678 vertices, 290 texture binds; per frame: fifo 633.09µs, convert 511.479µs, wall 16.686408ms (gap 15.6ms..17.8ms), decodes 0
+[2026-11-05T11:33:37Z INFO  game::gx_render] [gx] render: 1.615593ms per presented frame (acquire 18.533µs, build 770.597µs [lookups 54.925µs verts 340.745µs buffers 324.171µs], new pipelines 0 in 0ns, submit+present 815.788µs)
+[2026-11-05T11:33:37Z INFO  game::audio] [audio] peak level over last second: 20183
+[2026-11-05T11:33:38Z INFO  game::audio] [audio] peak level over last second: 20031
+[2026-11-05T11:33:39Z INFO  game::gx_host] [gx] frame 960: 184 draws, 2131 vertices, 185 texture binds; per frame: fifo 389.374µs, convert 293.602µs, wall 17.240714ms (gap 11.4ms..88.5ms), decodes 0
+[2026-11-05T11:33:39Z INFO  game::gx_render] [gx] render: 951.78µs per presented frame (acquire 17.305µs, build 351.442µs [lookups 34.609µs verts 137.435µs buffers 151.908µs], new pipelines 0 in 0ns, submit+present 575.92µs)
+[2026-11-05T11:33:39Z INFO  game::audio] [audio] peak level over last second: 19113
+[2026-11-05T11:33:40Z INFO  game::audio] [audio] peak level over last second: 17409
+[2026-11-05T11:33:41Z INFO  game::gx_host] [gx] frame 1080: 184 draws, 2131 vertices, 185 texture binds; per frame: fifo 260.997µs, convert 182.197µs, wall 16.682762ms (gap 15.8ms..17.5ms), decodes 0
+[2026-11-05T11:33:41Z INFO  game::gx_render] [gx] render: 643.88µs per presented frame (acquire 16.078µs, build 150.67µs [lookups 16.127µs verts 43.872µs buffers 74.13µs], new pipelines 0 in 0ns, submit+present 471.693µs)
+[2026-11-05T11:33:41Z INFO  game::audio] [audio] peak level over last second: 14079
+[2026-11-05T11:33:42Z INFO  game::audio] [audio] peak level over last second: 16551
+[2026-11-05T11:33:43Z INFO  game::gx_host] [gx] frame 1200: 184 draws, 2131 vertices, 185 texture binds; per frame: fifo 260.853µs, convert 178.997µs, wall 16.677166ms (gap 15.7ms..17.5ms), decodes 0
+[2026-11-05T11:33:43Z INFO  game::gx_render] [gx] render: 659.957µs per presented frame (acquire 16.451µs, build 147.212µs [lookups 17.637µs verts 41.645µs buffers 72.978µs], new pipelines 0 in 0ns, submit+present 490.485µs)
+[2026-11-05T11:33:43Z INFO  game::audio] [audio] peak level over last second: 16295
+[2026-11-05T11:33:44Z INFO  game::audio] [audio] peak level over last second: 13218
+[2026-11-05T11:33:45Z INFO  game::audio] [audio] peak level over last second: 15074
+[2026-11-05T11:33:45Z INFO  game::gx_host] [gx] frame 1320: 2830 draws, 56282 vertices, 3674 texture binds; per frame: fifo 623.807µs, convert 1.385764ms, wall 20.725702ms (gap 7.2ms..476.1ms), decodes 2
+[2026-11-05T11:33:46Z INFO  game::gx_render] [gx] render: 4.5237ms per presented frame (acquire 2.232358ms, build 1.162425ms [lookups 135.215µs verts 421.902µs buffers 512.757µs], new pipelines 0 in 0ns, submit+present 1.118005ms)
+[2026-11-05T11:33:46Z INFO  game::audio] [audio] peak level over last second: 23606
+[2026-11-05T11:33:46Z INFO  game::vi] [vi] 600 frames: game busy 10.1 ms/frame avg, 38 skipped fields
+[2026-11-05T11:33:47Z INFO  game::audio] [audio] peak level over last second: 27311
+[2026-11-05T11:33:47Z INFO  game::gx_host] [gx] frame 1440: 2602 draws, 46362 vertices, 3451 texture binds; per frame: fifo 2.170906ms, convert 4.208562ms, wall 17.64978ms (gap 13.6ms..31.3ms), decodes 0
+[2026-11-05T11:33:48Z INFO  game::gx_render] [gx] render: 17.333466ms per presented frame (acquire 10.541405ms, build 4.542955ms [lookups 311.065µs verts 1.998694ms buffers 1.919051ms], new pipelines 0 in 0ns, submit+present 2.20751ms)
+[2026-11-05T11:33:48Z INFO  game::audio] [audio] peak level over last second: 18278
+[2026-11-05T11:33:49Z INFO  game::audio] [audio] peak level over last second: 30743
+[2026-11-05T11:33:49Z INFO  game::gx_host] [gx] frame 1560: 2577 draws, 46284 vertices, 3421 texture binds; per frame: fifo 1.78604ms, convert 3.490676ms, wall 16.679505ms (gap 13.9ms..19.4ms), decodes 0
+[2026-11-05T11:33:50Z INFO  game::audio] [audio] peak level over last second: 25721
+[2026-11-05T11:33:50Z INFO  game::gx_render] [gx] render: 16.76545ms per presented frame (acquire 10.59699ms, build 4.15586ms [lookups 304.974µs verts 1.851639ms buffers 1.742298ms], new pipelines 0 in 0ns, submit+present 1.97167ms)
+[2026-11-05T11:33:51Z INFO  game::audio] [audio] peak level over last second: 27449
+[2026-11-05T11:33:51Z INFO  game::gx_host] [gx] frame 1680: 2568 draws, 46237 vertices, 3253 texture binds; per frame: fifo 1.763515ms, convert 3.342593ms, wall 16.689482ms (gap 12.9ms..20.1ms), decodes 0
+[2026-11-05T11:33:52Z INFO  game::audio] [audio] peak level over last second: 21484
+[2026-11-05T11:33:52Z INFO  game::gx_render] [gx] render: 16.735965ms per presented frame (acquire 10.699118ms, build 4.08123ms [lookups 279.416µs verts 1.84124ms buffers 1.721542ms], new pipelines 0 in 0ns, submit+present 1.916252ms)
+[2026-11-05T11:33:53Z INFO  game::audio] [audio] peak level over last second: 26400
+[2026-11-05T11:33:53Z INFO  game::gx_host] [gx] frame 1800: 2642 draws, 47952 vertices, 3283 texture binds; per frame: fifo 1.847128ms, convert 3.265975ms, wall 16.819855ms (gap 14.4ms..26.7ms), decodes 0
+[2026-11-05T11:33:54Z INFO  game::audio] [audio] peak level over last second: 24506
+[2026-11-05T11:33:54Z INFO  game::gx_render] [gx] render: 15.041097ms per presented frame (acquire 8.74918ms, build 4.312547ms [lookups 452.01µs verts 1.860505ms buffers 1.75912ms], new pipelines 1 in 20.1962ms, submit+present 1.93904ms)
+[2026-11-05T11:33:55Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-05T11:33:55Z INFO  game::gx_host] [gx] frame 1920: 2645 draws, 47744 vertices, 3175 texture binds; per frame: fifo 1.757909ms, convert 3.372522ms, wall 16.822105ms (gap 13.5ms..30.3ms), decodes 0
+[2026-11-05T11:33:56Z INFO  game::audio] [audio] peak level over last second: 19127
+[2026-11-05T11:33:56Z INFO  game::vi] [vi] 600 frames: game busy 10.3 ms/frame avg, 6 skipped fields
+[2026-11-05T11:33:57Z INFO  game::gx_render] [gx] render: 17.8941ms per presented frame (acquire 11.085731ms, build 4.774698ms [lookups 731.625µs verts 1.937662ms buffers 1.844295ms], new pipelines 3 in 51.2637ms, submit+present 1.99244ms)
+[2026-11-05T11:33:57Z INFO  game::audio] [audio] peak level over last second: 26391
+[2026-11-05T11:33:58Z INFO  game::gx_host] [gx] frame 2040: 2736 draws, 49081 vertices, 3277 texture binds; per frame: fifo 1.895985ms, convert 3.482089ms, wall 16.961499ms (gap 13.7ms..32.9ms), decodes 0
+[2026-11-05T11:33:58Z INFO  game::audio] [audio] peak level over last second: 25059
+[2026-11-05T11:33:59Z INFO  game::gx_render] [gx] render: 18.005873ms per presented frame (acquire 11.307933ms, build 4.53466ms [lookups 323.239µs verts 2.014797ms buffers 1.929661ms], new pipelines 0 in 0ns, submit+present 2.117484ms)
+[2026-11-05T11:33:59Z INFO  game::audio] [audio] peak level over last second: 32767
+[2026-11-05T11:34:00Z INFO  game::gx_host] [gx] frame 2160: 2640 draws, 44883 vertices, 3119 texture binds; per frame: fifo 1.942189ms, convert 3.480087ms, wall 17.385747ms (gap 14.5ms..33.9ms), decodes 0
+[2026-11-05T11:34:00Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-05T11:34:01Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-05T11:34:01Z INFO  game::gx_render] [gx] render: 15.511926ms per presented frame (acquire 8.819994ms, build 4.510514ms [lookups 602.225µs verts 1.861706ms buffers 1.783106ms], new pipelines 3 in 33.433ms, submit+present 2.138992ms)
+[2026-11-05T11:34:02Z INFO  game::gx_host] [gx] frame 2280: 2769 draws, 49873 vertices, 3095 texture binds; per frame: fifo 1.833869ms, convert 3.240073ms, wall 16.678001ms (gap 14.8ms..18.0ms), decodes 0
+[2026-11-05T11:34:02Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-05T11:34:03Z INFO  game::audio] [audio] peak level over last second: 32767
+[2026-11-05T11:34:03Z INFO  game::gx_render] [gx] render: 10.795262ms per presented frame (acquire 5.538257ms, build 3.46067ms [lookups 242.844µs verts 1.554965ms buffers 1.440427ms], new pipelines 0 in 0ns, submit+present 1.760095ms)
+[2026-11-05T11:34:04Z INFO  game::gx_host] [gx] frame 2400: 1492 draws, 28225 vertices, 1891 texture binds; per frame: fifo 1.316708ms, convert 2.452238ms, wall 16.678054ms (gap 14.4ms..18.6ms), decodes 0
+[2026-11-05T11:34:04Z INFO  game::audio] [audio] peak level over last second: 8883
+[2026-11-05T11:34:05Z INFO  game::audio] [audio] peak level over last second: 2048
+[2026-11-05T11:34:05Z INFO  game::gx_render] [gx] render: 3.606134ms per presented frame (acquire 26.024µs, build 2.207445ms [lookups 157.727µs verts 1.038874ms buffers 858.934µs], new pipelines 0 in 0ns, submit+present 1.34258ms)
+[2026-11-05T11:34:06Z INFO  game::gx_host] [gx] frame 2520: 1492 draws, 28225 vertices, 1891 texture binds; per frame: fifo 942.442µs, convert 1.89034ms, wall 16.68525ms (gap 15.7ms..17.7ms), decodes 0
+[2026-11-05T11:34:06Z INFO  game::audio] [audio] peak level over last second: 2332
+[2026-11-05T11:34:06Z INFO  game::vi] [vi] 600 frames: game busy 8.9 ms/frame avg, 7 skipped fields
+[2026-11-05T11:34:07Z INFO  game::audio] [audio] peak level over last second: 2884
+[2026-11-05T11:34:07Z INFO  game::gx_render] [gx] render: 4.29795ms per presented frame (acquire 28.637µs, build 2.784662ms [lookups 180.776µs verts 1.324828ms buffers 1.108357ms], new pipelines 0 in 0ns, submit+present 1.448816ms)
+[2026-11-05T11:34:08Z INFO  game::gx_host] [gx] frame 2640: 1700 draws, 33517 vertices, 2099 texture binds; per frame: fifo 1.074154ms, convert 2.611465ms, wall 16.677965ms (gap 15.7ms..17.6ms), decodes 0
+[2026-11-05T11:34:08Z INFO  game::audio] [audio] peak level over last second: 1752
+[2026-11-05T11:34:09Z INFO  game::audio] [audio] peak level over last second: 23352
+[2026-11-05T11:34:09Z INFO  game::gx_render] [gx] render: 5.4117ms per presented frame (acquire 299.172µs, build 3.44741ms [lookups 222.775µs verts 1.537638ms buffers 1.475614ms], new pipelines 0 in 0ns, submit+present 1.628805ms)
+[2026-11-05T11:34:10Z INFO  game::gx_host] [gx] frame 2760: 2832 draws, 51809 vertices, 3066 texture binds; per frame: fifo 1.305558ms, convert 4.047295ms, wall 16.688805ms (gap 15.4ms..20.1ms), decodes 0
+[2026-11-05T11:34:10Z INFO  game::audio] [audio] peak level over last second: 23905
+[2026-11-05T11:34:11Z INFO  game::audio] [audio] peak level over last second: 17304
+[2026-11-05T11:34:11Z INFO  game::gx_render] [gx] render: 12.38214ms per presented frame (acquire 6.952926ms, build 3.60782ms [lookups 240.32µs verts 1.6197ms buffers 1.534301ms], new pipelines 0 in 0ns, submit+present 1.782819ms)
+[2026-11-05T11:34:12Z INFO  game::gx_host] [gx] frame 2880: 1749 draws, 32109 vertices, 2310 texture binds; per frame: fifo 1.46273ms, convert 2.585803ms, wall 16.682024ms (gap 15.8ms..17.6ms), decodes 0
+[2026-11-05T11:34:12Z INFO  game::audio] [audio] peak level over last second: 18639
+[2026-11-05T11:34:13Z INFO  game::audio] [audio] peak level over last second: 13234
+[2026-11-05T11:34:14Z INFO  game::audio] [audio] peak level over last second: 15459
+[2026-11-05T11:34:15Z INFO  game::audio] [audio] peak level over last second: 8698
+[2026-11-05T11:34:15Z INFO  game::gx_host] [gx] frame 3000: 5873 draws, 108777 vertices, 6066 texture binds; per frame: fifo 4.418097ms, convert 5.925067ms, wall 30.023358ms (gap 13.8ms..165.5ms), decodes 0
+[2026-11-05T11:34:16Z INFO  game::gx_render] [gx] render: 28.248132ms per presented frame (acquire 8.050384ms, build 9.250931ms [lookups 761.869µs verts 3.841832ms buffers 4.261989ms], new pipelines 5 in 18.5621ms, submit+present 10.810437ms)
+[2026-11-05T11:34:16Z INFO  game::audio] [audio] peak level over last second: 16502
+[2026-11-05T11:34:17Z INFO  game::audio] [audio] peak level over last second: 14479
+[2026-11-05T11:34:18Z INFO  game::audio] [audio] peak level over last second: 21246
+[2026-11-05T11:34:18Z INFO  game::gx_host] [gx] frame 3120: 633 draws, 10746 vertices, 290 texture binds; per frame: fifo 2.208569ms, convert 2.477107ms, wall 25.375348ms (gap 13.2ms..465.8ms), decodes 0
+[2026-11-05T11:34:19Z INFO  game::gx_render] [gx] render: 8.270515ms per presented frame (acquire 1.865585ms, build 2.714635ms [lookups 189.322µs verts 1.147779ms buffers 1.246988ms], new pipelines 0 in 0ns, submit+present 3.638511ms)
+[2026-11-05T11:34:19Z INFO  game::audio] [audio] peak level over last second: 20906
+[2026-11-05T11:34:20Z INFO  game::audio] [audio] peak level over last second: 23980
+[2026-11-05T11:34:21Z INFO  game::gx_host] [gx] frame 3240: 633 draws, 10746 vertices, 290 texture binds; per frame: fifo 576.851µs, convert 506.095µs, wall 20.504216ms (gap 14.2ms..430.1ms), decodes 0
+[2026-11-05T11:34:21Z INFO  game::audio] [audio] peak level over last second: 21201
+[2026-11-05T11:34:21Z INFO  game::gx_render] [gx] render: 1.583811ms per presented frame (acquire 24.837µs, build 688.465µs [lookups 50.531µs verts 302.622µs buffers 286.005µs], new pipelines 0 in 0ns, submit+present 853.935µs)
+[2026-11-05T11:34:21Z INFO  game::vi] [vi] 600 frames: game busy 14.7 ms/frame avg, 314 skipped fields
+[2026-11-05T11:34:22Z INFO  game::audio] [audio] peak level over last second: 18258
+[2026-11-05T11:34:23Z INFO  game::gx_host] [gx] frame 3360: 633 draws, 10746 vertices, 290 texture binds; per frame: fifo 700.384µs, convert 635.056µs, wall 16.686493ms (gap 15.8ms..17.6ms), decodes 0
+[2026-11-05T11:34:23Z INFO  game::audio] [audio] peak level over last second: 12912
+[2026-11-05T11:34:23Z INFO  game::gx_render] [gx] render: 1.994209ms per presented frame (acquire 26.569µs, build 946.041µs [lookups 64.3µs verts 408.326µs buffers 415.019µs], new pipelines 0 in 0ns, submit+present 1.000219ms)
+[2026-11-05T11:34:24Z INFO  game::audio] [audio] peak level over last second: 21552
+[2026-11-05T11:34:25Z INFO  game::audio] [audio] peak level over last second: 12981
+[2026-11-05T11:34:25Z INFO  game::gx_host] [gx] frame 3480: 356 draws, 3403 vertices, 360 texture binds; per frame: fifo 618.29µs, convert 624.284µs, wall 18.626288ms (gap 14.1ms..253.3ms), decodes 0
+[2026-11-05T11:34:25Z INFO  game::gx_render] [gx] render: 1.916456ms per presented frame (acquire 26.062µs, build 518.195µs [lookups 51.684µs verts 173.309µs buffers 251.034µs], new pipelines 0 in 0ns, submit+present 1.353145ms)
+[2026-11-05T11:34:26Z INFO  game::audio] [audio] peak level over last second: 15924
+[2026-11-05T11:34:27Z INFO  game::audio] [audio] peak level over last second: 13245
+[2026-11-05T11:34:27Z INFO  game::gx_host] [gx] frame 3600: 540 draws, 9013 vertices, 224 texture binds; per frame: fifo 526.611µs, convert 1.055283ms, wall 20.018099ms (gap 3.7ms..433.8ms), decodes 0
+[2026-11-05T11:34:28Z INFO  game::gx_render] [gx] render: 2.937665ms per presented frame (acquire 1.411998ms, build 507.566µs [lookups 42.12µs verts 182.52µs buffers 241.895µs], new pipelines 0 in 0ns, submit+present 998.699µs)
+[2026-11-05T11:34:28Z INFO  game::audio] [audio] peak level over last second: 24505
+[2026-11-05T11:34:29Z INFO  game::audio] [audio] peak level over last second: 27622
+[2026-11-05T11:34:29Z INFO  game::gx_host] [gx] frame 3720: 540 draws, 9013 vertices, 224 texture binds; per frame: fifo 545.642µs, convert 492.823µs, wall 16.682732ms (gap 15.8ms..17.6ms), decodes 0
+[2026-11-05T11:34:30Z INFO  game::gx_render] [gx] render: 1.602272ms per presented frame (acquire 27.396µs, build 703.379µs [lookups 48.24µs verts 301.193µs buffers 304.032µs], new pipelines 0 in 0ns, submit+present 851.944µs)
+[2026-11-05T11:34:30Z INFO  game::audio] [audio] peak level over last second: 16669
+[2026-11-05T11:34:31Z INFO  game::audio] [audio] peak level over last second: 13620
+[2026-11-05T11:34:31Z INFO  game::gx_host] [gx] frame 3840: 540 draws, 9013 vertices, 224 texture binds; per frame: fifo 536.925µs, convert 477.306µs, wall 16.682515ms (gap 15.8ms..17.6ms), decodes 0
+[2026-11-05T11:34:32Z INFO  game::gx_render] [gx] render: 1.454068ms per presented frame (acquire 22.11µs, build 600.609µs [lookups 41.803µs verts 251.278µs buffers 257.97µs], new pipelines 0 in 0ns, submit+present 814.527µs)
+[2026-11-05T11:34:32Z INFO  game::audio] [audio] peak level over last second: 13563
+[2026-11-05T11:34:32Z INFO  game::vi] [vi] 600 frames: game busy 9.5 ms/frame avg, 39 skipped fields
+[2026-11-05T11:34:33Z INFO  game::audio] [audio] peak level over last second: 16816
+[2026-11-05T11:34:33Z INFO  game::gx_host] [gx] frame 3960: 546 draws, 9307 vertices, 226 texture binds; per frame: fifo 544.363µs, convert 491.775µs, wall 16.683712ms (gap 15.7ms..17.7ms), decodes 0
+[2026-11-05T11:34:34Z INFO  game::gx_render] [gx] render: 1.509939ms per presented frame (acquire 20.545µs, build 654.736µs [lookups 50.493µs verts 278.611µs buffers 274.936µs], new pipelines 0 in 0ns, submit+present 818.2µs)
+[2026-11-05T11:34:34Z INFO  game::audio] [audio] peak level over last second: 15950
+[2026-11-05T11:34:35Z INFO  game::audio] [audio] peak level over last second: 25098
+[2026-11-05T11:34:36Z INFO  game::audio] [audio] peak level over last second: 16600
+[2026-11-05T11:34:36Z INFO  game::gx_host] [gx] frame 4080: 101 draws, 1656 vertices, 101 texture binds; per frame: fifo 461.542µs, convert 670.109µs, wall 24.78835ms (gap 11.8ms..822.2ms), decodes 0
+[2026-11-05T11:34:37Z INFO  game::gx_render] [gx] render: 1.156689ms per presented frame (acquire 18.331µs, build 426.147µs [lookups 104.438µs verts 135.364µs buffers 152.711µs], new pipelines 1 in 8.4463ms, submit+present 698.807µs)
+[2026-11-05T11:34:37Z INFO  game::audio] [audio] peak level over last second: 22219
+[2026-11-05T11:34:38Z INFO  game::audio] [audio] peak level over last second: 18315
+[2026-11-05T11:34:39Z INFO  game::gx_host] [gx] frame 4200: 425 draws, 4324 vertices, 429 texture binds; per frame: fifo 430.095µs, convert 519.432µs, wall 18.498053ms (gap 8.0ms..243.8ms), decodes 0
+[2026-11-05T11:34:39Z INFO  game::audio] [audio] peak level over last second: 16678
+[2026-11-05T11:34:39Z INFO  game::gx_render] [gx] render: 1.070258ms per presented frame (acquire 19.529µs, build 293.544µs [lookups 31.441µs verts 93.866µs buffers 131.215µs], new pipelines 0 in 0ns, submit+present 743.567µs)
+[2026-11-05T11:34:40Z INFO  game::audio] [audio] peak level over last second: 18858
+[2026-11-05T11:34:41Z INFO  game::audio] [audio] peak level over last second: 26239
+[2026-11-05T11:34:41Z INFO  game::gx_host] [gx] frame 4320: 630 draws, 10678 vertices, 290 texture binds; per frame: fifo 739.35µs, convert 629.76µs, wall 20.116985ms (gap 14.2ms..430.9ms), decodes 0
+[2026-11-05T11:34:41Z INFO  game::gx_render] [gx] render: 3.459264ms per presented frame (acquire 1.348756ms, build 989.364µs [lookups 66.458µs verts 420.149µs buffers 440.388µs], new pipelines 0 in 0ns, submit+present 1.100222ms)
+[2026-11-05T11:34:42Z INFO  game::audio] [audio] peak level over last second: 19885
+[2026-11-05T11:34:43Z INFO  game::audio] [audio] peak level over last second: 18648
+[2026-11-05T11:34:43Z INFO  game::gx_host] [gx] frame 4440: 187 draws, 2164 vertices, 188 texture binds; per frame: fifo 350.31µs, convert 278.435µs, wall 17.37677ms (gap 10.4ms..91.9ms), decodes 0
+[2026-11-05T11:34:43Z INFO  game::gx_render] [gx] render: 1.328638ms per presented frame (acquire 26.8µs, build 253.524µs [lookups 21.851µs verts 64.633µs buffers 146.523µs], new pipelines 0 in 0ns, submit+present 1.037849ms)
+[2026-11-05T11:34:44Z INFO  game::audio] [audio] peak level over last second: 14832
+[2026-11-05T11:34:45Z INFO  game::audio] [audio] peak level over last second: 11976
+[2026-11-05T11:34:45Z INFO  game::gx_host] [gx] frame 4560: 184 draws, 2131 vertices, 185 texture binds; per frame: fifo 276.619µs, convert 204.217µs, wall 16.680433ms (gap 15.8ms..17.8ms), decodes 0
+[2026-11-05T11:34:45Z INFO  game::gx_render] [gx] render: 767.619µs per presented frame (acquire 16.796µs, build 165.606µs [lookups 16.415µs verts 48.739µs buffers 82.658µs], new pipelines 0 in 0ns, submit+present 576.766µs)
+[2026-11-05T11:34:46Z INFO  game::audio] [audio] peak level over last second: 13184
+[2026-11-05T11:34:46Z INFO  game::vi] [vi] 600 frames: game busy 11.4 ms/frame avg, 243 skipped fields
+[2026-11-05T11:34:47Z INFO  game::audio] [audio] peak level over last second: 15109
+[2026-11-05T11:34:48Z INFO  game::gx_host] [gx] frame 4680: 2797 draws, 55510 vertices, 2651 texture binds; per frame: fifo 1.205344ms, convert 1.564319ms, wall 21.83346ms (gap 8.1ms..617.3ms), decodes 0
+[2026-11-05T11:34:48Z INFO  game::audio] [audio] peak level over last second: 20212
+[2026-11-05T11:34:48Z INFO  game::gx_render] [gx] render: 12.506816ms per presented frame (acquire 7.112821ms, build 2.930348ms [lookups 228.462µs verts 1.245916ms buffers 1.282887ms], new pipelines 0 in 0ns, submit+present 2.434785ms)
+[2026-11-05T11:34:49Z INFO  game::audio] [audio] peak level over last second: 21525
+[2026-11-05T11:34:50Z INFO  game::gx_host] [gx] frame 4800: 2271 draws, 40053 vertices, 2153 texture binds; per frame: fifo 1.931262ms, convert 3.107225ms, wall 16.815984ms (gap 14.0ms..24.0ms), decodes 0
+[2026-11-05T11:34:50Z INFO  game::audio] [audio] peak level over last second: 15277
+[2026-11-05T11:34:50Z INFO  game::gx_render] [gx] render: 16.269028ms per presented frame (acquire 9.692711ms, build 4.014454ms [lookups 254.877µs verts 1.864504ms buffers 1.646659ms], new pipelines 0 in 0ns, submit+present 2.524596ms)
+[2026-11-05T11:34:51Z INFO  game::audio] [audio] peak level over last second: 2527
+[2026-11-05T11:34:52Z INFO  game::gx_host] [gx] frame 4920: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.52139ms, convert 2.491662ms, wall 16.685683ms (gap 15.9ms..17.6ms), decodes 0
+[2026-11-05T11:34:52Z INFO  game::audio] [audio] peak level over last second: 2927
+[2026-11-05T11:34:52Z INFO  game::gx_render] [gx] render: 4.857915ms per presented frame (acquire 169.052µs, build 3.013308ms [lookups 193.13µs verts 1.437495ms buffers 1.186281ms], new pipelines 0 in 0ns, submit+present 1.63805ms)
+[2026-11-05T11:34:53Z INFO  game::audio] [audio] peak level over last second: 3105
+[2026-11-05T11:34:54Z INFO  game::gx_host] [gx] frame 5040: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.205204ms, convert 1.972725ms, wall 16.680497ms (gap 15.8ms..17.8ms), decodes 0
+[2026-11-05T11:34:54Z INFO  game::audio] [audio] peak level over last second: 2883
+[2026-11-05T11:34:54Z INFO  game::gx_render] [gx] render: 4.414576ms per presented frame (acquire 25.98µs, build 2.792931ms [lookups 179.045µs verts 1.342497ms buffers 1.092627ms], new pipelines 0 in 0ns, submit+present 1.559867ms)
+[2026-11-05T11:34:55Z INFO  game::audio] [audio] peak level over last second: 3102
+[2026-11-05T11:34:56Z INFO  game::gx_host] [gx] frame 5160: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.2136ms, convert 1.979618ms, wall 16.686583ms (gap 15.9ms..17.7ms), decodes 0
+[2026-11-05T11:34:56Z INFO  game::audio] [audio] peak level over last second: 3040
+[2026-11-05T11:34:56Z INFO  game::gx_render] [gx] render: 4.406659ms per presented frame (acquire 25.806µs, build 2.78904ms [lookups 181.227µs verts 1.335707ms buffers 1.092001ms], new pipelines 0 in 0ns, submit+present 1.55653ms)
+[2026-11-05T11:34:57Z INFO  game::vi] [vi] 600 frames: game busy 7.9 ms/frame avg, 39 skipped fields
+[2026-11-05T11:34:57Z INFO  game::audio] [audio] peak level over last second: 3074
+[2026-11-05T11:34:58Z INFO  game::gx_host] [gx] frame 5280: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.199653ms, convert 1.964029ms, wall 16.682656ms (gap 15.8ms..17.7ms), decodes 0
+[2026-11-05T11:34:58Z INFO  game::audio] [audio] peak level over last second: 2579
+[2026-11-05T11:34:58Z INFO  game::gx_render] [gx] render: 4.439251ms per presented frame (acquire 25.566µs, build 2.797768ms [lookups 180.092µs verts 1.338067ms buffers 1.0998ms], new pipelines 0 in 0ns, submit+present 1.579181ms)
+[2026-11-05T11:34:59Z INFO  game::audio] [audio] peak level over last second: 3071
+[2026-11-05T11:35:00Z INFO  game::gx_host] [gx] frame 5400: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.23867ms, convert 2.017566ms, wall 16.679361ms (gap 15.5ms..18.0ms), decodes 0
+[2026-11-05T11:35:00Z INFO  game::audio] [audio] peak level over last second: 3085
+[2026-11-05T11:35:00Z INFO  game::gx_render] [gx] render: 4.962015ms per presented frame (acquire 254.522µs, build 2.989772ms [lookups 184.296µs verts 1.366204ms buffers 1.254718ms], new pipelines 0 in 0ns, submit+present 1.677649ms)
+[2026-11-05T11:35:01Z INFO  game::audio] [audio] peak level over last second: 3068
+[2026-11-05T11:35:02Z INFO  game::gx_host] [gx] frame 5520: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.213669ms, convert 2.013299ms, wall 16.683007ms (gap 15.7ms..17.7ms), decodes 0
+[2026-11-05T11:35:02Z INFO  game::audio] [audio] peak level over last second: 3085
+[2026-11-05T11:35:02Z INFO  game::gx_render] [gx] render: 4.609967ms per presented frame (acquire 29.245µs, build 2.941032ms [lookups 190.648µs verts 1.390639ms buffers 1.170971ms], new pipelines 0 in 0ns, submit+present 1.602677ms)
+[2026-11-05T11:35:03Z INFO  game::audio] [audio] peak level over last second: 2984
+[2026-11-05T11:35:04Z INFO  game::gx_host] [gx] frame 5640: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.272032ms, convert 2.105106ms, wall 16.688336ms (gap 15.6ms..17.5ms), decodes 0
+[2026-11-05T11:35:04Z INFO  game::audio] [audio] peak level over last second: 2857
+[2026-11-05T11:35:04Z INFO  game::gx_render] [gx] render: 4.620634ms per presented frame (acquire 30.712µs, build 2.914725ms [lookups 187.89µs verts 1.394453ms buffers 1.153712ms], new pipelines 0 in 0ns, submit+present 1.637317ms)
+[2026-11-05T11:35:05Z INFO  game::audio] [audio] peak level over last second: 2941
+[2026-11-05T11:35:06Z INFO  game::gx_host] [gx] frame 5760: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.241275ms, convert 1.996754ms, wall 16.679094ms (gap 15.9ms..17.6ms), decodes 0
+[2026-11-05T11:35:06Z INFO  game::audio] [audio] peak level over last second: 2810
+[2026-11-05T11:35:06Z INFO  game::gx_render] [gx] render: 4.484056ms per presented frame (acquire 33.449µs, build 2.810337ms [lookups 184.695µs verts 1.342685ms buffers 1.109489ms], new pipelines 0 in 0ns, submit+present 1.60328ms)
+[2026-11-05T11:35:07Z INFO  game::vi] [vi] 600 frames: game busy 5.2 ms/frame avg, 0 skipped fields
+[2026-11-05T11:35:07Z INFO  game::audio] [audio] peak level over last second: 3066
+[2026-11-05T11:35:08Z INFO  game::gx_host] [gx] frame 5880: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.225927ms, convert 1.989784ms, wall 16.686701ms (gap 15.9ms..17.6ms), decodes 0
+[2026-11-05T11:35:08Z INFO  game::audio] [audio] peak level over last second: 2981
+[2026-11-05T11:35:08Z INFO  game::gx_render] [gx] render: 4.442854ms per presented frame (acquire 27.83µs, build 2.78772ms [lookups 181.528µs verts 1.339389ms buffers 1.094816ms], new pipelines 0 in 0ns, submit+present 1.591617ms)
+[2026-11-05T11:35:09Z INFO  game::audio] [audio] peak level over last second: 3045
+[2026-11-05T11:35:10Z INFO  game::gx_host] [gx] frame 6000: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.211724ms, convert 1.964428ms, wall 16.677854ms (gap 15.7ms..17.6ms), decodes 0
+[2026-11-05T11:35:10Z INFO  game::audio] [audio] peak level over last second: 2650
+[2026-11-05T11:35:10Z INFO  game::gx_render] [gx] render: 4.433517ms per presented frame (acquire 28.465µs, build 2.786363ms [lookups 183.334µs verts 1.340333ms buffers 1.088758ms], new pipelines 0 in 0ns, submit+present 1.58267ms)
+[2026-11-05T11:35:11Z INFO  game::audio] [audio] peak level over last second: 3062
+[2026-11-05T11:35:12Z INFO  game::gx_host] [gx] frame 6120: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.216698ms, convert 1.995826ms, wall 16.686144ms (gap 15.7ms..17.6ms), decodes 0
+[2026-11-05T11:35:12Z INFO  game::audio] [audio] peak level over last second: 2979
+[2026-11-05T11:35:13Z INFO  game::gx_render] [gx] render: 4.443801ms per presented frame (acquire 29.011µs, build 2.787218ms [lookups 185.16µs verts 1.332779ms buffers 1.095095ms], new pipelines 0 in 0ns, submit+present 1.591314ms)
+[2026-11-05T11:35:13Z INFO  game::audio] [audio] peak level over last second: 3045
+[2026-11-05T11:35:14Z INFO  game::gx_host] [gx] frame 6240: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.220585ms, convert 1.980671ms, wall 16.683775ms (gap 15.8ms..17.7ms), decodes 0
+[2026-11-05T11:35:14Z INFO  game::audio] [audio] peak level over last second: 2976
+[2026-11-05T11:35:15Z INFO  game::gx_render] [gx] render: 4.43737ms per presented frame (acquire 30.241µs, build 2.729629ms [lookups 183.018µs verts 1.278461ms buffers 1.094963ms], new pipelines 0 in 0ns, submit+present 1.639526ms)
+[2026-11-05T11:35:15Z INFO  game::audio] [audio] peak level over last second: 2970
+[2026-11-05T11:35:16Z INFO  game::gx_host] [gx] frame 6360: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.213821ms, convert 1.959403ms, wall 16.682399ms (gap 15.7ms..17.7ms), decodes 0
+[2026-11-05T11:35:16Z INFO  game::audio] [audio] peak level over last second: 2830
+[2026-11-05T11:35:17Z INFO  game::gx_render] [gx] render: 4.622756ms per presented frame (acquire 30.315µs, build 2.887225ms [lookups 180.72µs verts 1.280512ms buffers 1.252551ms], new pipelines 0 in 0ns, submit+present 1.66575ms)
+[2026-11-05T11:35:17Z INFO  game::vi] [vi] 600 frames: game busy 5.2 ms/frame avg, 0 skipped fields
+[2026-11-05T11:35:17Z INFO  game::audio] [audio] peak level over last second: 2974
+[2026-11-05T11:35:18Z INFO  game::gx_host] [gx] frame 6480: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.209762ms, convert 1.991802ms, wall 16.679926ms (gap 15.8ms..17.6ms), decodes 0
+[2026-11-05T11:35:18Z INFO  game::audio] [audio] peak level over last second: 2890
+[2026-11-05T11:35:19Z INFO  game::gx_render] [gx] render: 4.870236ms per presented frame (acquire 26.977µs, build 3.203609ms [lookups 197.43µs verts 1.565276ms buffers 1.251633ms], new pipelines 0 in 0ns, submit+present 1.601725ms)
+[2026-11-05T11:35:19Z INFO  game::audio] [audio] peak level over last second: 3030
+[2026-11-05T11:35:20Z INFO  game::gx_host] [gx] frame 6600: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.214475ms, convert 2.143055ms, wall 16.685278ms (gap 15.8ms..17.8ms), decodes 0
+[2026-11-05T11:35:20Z INFO  game::audio] [audio] peak level over last second: 2783
+[2026-11-05T11:35:21Z INFO  game::gx_render] [gx] render: 4.574786ms per presented frame (acquire 29.4µs, build 2.919439ms [lookups 186.532µs verts 1.421289ms buffers 1.119503ms], new pipelines 0 in 0ns, submit+present 1.58893ms)
+[2026-11-05T11:35:21Z INFO  game::audio] [audio] peak level over last second: 3069
+[2026-11-05T11:35:22Z INFO  game::gx_host] [gx] frame 6720: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.263719ms, convert 2.005407ms, wall 16.684633ms (gap 15.9ms..17.6ms), decodes 0
+[2026-11-05T11:35:22Z INFO  game::audio] [audio] peak level over last second: 3087
+[2026-11-05T11:35:23Z INFO  game::gx_render] [gx] render: 4.459808ms per presented frame (acquire 28.865µs, build 2.811587ms [lookups 182.616µs verts 1.347421ms buffers 1.100724ms], new pipelines 0 in 0ns, submit+present 1.583215ms)
+[2026-11-05T11:35:23Z INFO  game::audio] [audio] peak level over last second: 3013
+[2026-11-05T11:35:24Z INFO  game::gx_host] [gx] frame 6840: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.224726ms, convert 1.976735ms, wall 16.680151ms (gap 15.8ms..17.6ms), decodes 0
+[2026-11-05T11:35:24Z INFO  game::audio] [audio] peak level over last second: 2886
+[2026-11-05T11:35:25Z INFO  game::gx_render] [gx] render: 4.471829ms per presented frame (acquire 29.24µs, build 2.79327ms [lookups 183.243µs verts 1.3319ms buffers 1.097417ms], new pipelines 0 in 0ns, submit+present 1.613155ms)
+[2026-11-05T11:35:25Z INFO  game::audio] [audio] peak level over last second: 3044
+[2026-11-05T11:35:26Z INFO  game::gx_host] [gx] frame 6960: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.232991ms, convert 1.974433ms, wall 16.688501ms (gap 15.8ms..17.6ms), decodes 0
+[2026-11-05T11:35:26Z INFO  game::audio] [audio] peak level over last second: 2952
+[2026-11-05T11:35:27Z INFO  game::gx_render] [gx] render: 4.475421ms per presented frame (acquire 29.439µs, build 2.78173ms [lookups 183.615µs verts 1.32242ms buffers 1.095715ms], new pipelines 0 in 0ns, submit+present 1.628167ms)
+[2026-11-05T11:35:27Z INFO  game::vi] [vi] 600 frames: game busy 5.1 ms/frame avg, 0 skipped fields
+[2026-11-05T11:35:27Z INFO  game::audio] [audio] peak level over last second: 2886
+[2026-11-05T11:35:28Z INFO  game::gx_host] [gx] frame 7080: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.218227ms, convert 1.972745ms, wall 16.677527ms (gap 15.9ms..17.8ms), decodes 0
+[2026-11-05T11:35:28Z INFO  game::audio] [audio] peak level over last second: 2885
+[2026-11-05T11:35:29Z INFO  game::gx_render] [gx] render: 4.45306ms per presented frame (acquire 31.695µs, build 2.76072ms [lookups 185.67µs verts 1.295481ms buffers 1.095345ms], new pipelines 0 in 0ns, submit+present 1.624713ms)
+[2026-11-05T11:35:29Z INFO  game::audio] [audio] peak level over last second: 3060
+[2026-11-05T11:35:30Z INFO  game::gx_host] [gx] frame 7200: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.218578ms, convert 1.985212ms, wall 16.68585ms (gap 15.6ms..17.6ms), decodes 0
+[2026-11-05T11:35:30Z INFO  game::audio] [audio] peak level over last second: 2998
+[2026-11-05T11:35:31Z INFO  game::gx_render] [gx] render: 4.479557ms per presented frame (acquire 30.334µs, build 2.789028ms [lookups 187.148µs verts 1.31876ms buffers 1.098902ms], new pipelines 0 in 0ns, submit+present 1.623214ms)
+[2026-11-05T11:35:31Z INFO  game::audio] [audio] peak level over last second: 2975
+[2026-11-05T11:35:32Z INFO  game::gx_host] [gx] frame 7320: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.214578ms, convert 1.976244ms, wall 16.685266ms (gap 15.7ms..17.6ms), decodes 0
+[2026-11-05T11:35:32Z INFO  game::audio] [audio] peak level over last second: 3083
+[2026-11-05T11:35:33Z INFO  game::gx_render] [gx] render: 4.568699ms per presented frame (acquire 28.155µs, build 2.829018ms [lookups 186.13µs verts 1.286881ms buffers 1.181601ms], new pipelines 0 in 0ns, submit+present 1.67184ms)
+[2026-11-05T11:35:33Z INFO  game::audio] [audio] peak level over last second: 3099
+[2026-11-05T11:35:34Z INFO  game::gx_host] [gx] frame 7440: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.23024ms, convert 1.996575ms, wall 16.68225ms (gap 15.8ms..17.6ms), decodes 0
+[2026-11-05T11:35:34Z INFO  game::audio] [audio] peak level over last second: 3089
+[2026-11-05T11:35:35Z INFO  game::gx_render] [gx] render: 5.048545ms per presented frame (acquire 28.839µs, build 3.354612ms [lookups 204.337µs verts 1.546814ms buffers 1.419236ms], new pipelines 0 in 0ns, submit+present 1.625535ms)
+[2026-11-05T11:35:35Z INFO  game::audio] [audio] peak level over last second: 3053
+[2026-11-05T11:35:36Z INFO  game::gx_host] [gx] frame 7560: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.2375ms, convert 2.13812ms, wall 16.680294ms (gap 15.9ms..17.5ms), decodes 0
+[2026-11-05T11:35:36Z INFO  game::audio] [audio] peak level over last second: 3071
+[2026-11-05T11:35:37Z INFO  game::gx_render] [gx] render: 4.649257ms per presented frame (acquire 30.243µs, build 2.986292ms [lookups 195.905µs verts 1.451167ms buffers 1.152245ms], new pipelines 0 in 0ns, submit+present 1.595847ms)
+[2026-11-05T11:35:37Z INFO  game::vi] [vi] 600 frames: game busy 5.2 ms/frame avg, 0 skipped fields
+[2026-11-05T11:35:37Z INFO  game::audio] [audio] peak level over last second: 3031
+[2026-11-05T11:35:38Z INFO  game::gx_host] [gx] frame 7680: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.298929ms, convert 2.098171ms, wall 16.679346ms (gap 15.7ms..17.6ms), decodes 0
+[2026-11-05T11:35:38Z INFO  game::audio] [audio] peak level over last second: 2982
+[2026-11-05T11:35:39Z INFO  game::gx_render] [gx] render: 4.600285ms per presented frame (acquire 37.59µs, build 2.890756ms [lookups 189.384µs verts 1.368169ms buffers 1.156054ms], new pipelines 0 in 0ns, submit+present 1.634295ms)
+[2026-11-05T11:35:39Z INFO  game::audio] [audio] peak level over last second: 3135
+[2026-11-05T11:35:40Z INFO  game::gx_host] [gx] frame 7800: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.240152ms, convert 1.990415ms, wall 16.690475ms (gap 15.9ms..17.6ms), decodes 0
+[2026-11-05T11:35:40Z INFO  game::audio] [audio] peak level over last second: 3040
+[2026-11-05T11:35:41Z INFO  game::gx_render] [gx] render: 4.420037ms per presented frame (acquire 30.728µs, build 2.749789ms [lookups 183.793µs verts 1.299381ms buffers 1.095195ms], new pipelines 0 in 0ns, submit+present 1.603435ms)
+[2026-11-05T11:35:41Z INFO  game::audio] [audio] peak level over last second: 3084
+[2026-11-05T11:35:42Z INFO  game::gx_host] [gx] frame 7920: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.238573ms, convert 1.97479ms, wall 16.680712ms (gap 15.8ms..17.6ms), decodes 0
+[2026-11-05T11:35:42Z INFO  game::audio] [audio] peak level over last second: 3049
+[2026-11-05T11:35:43Z INFO  game::gx_render] [gx] render: 4.414763ms per presented frame (acquire 30.631µs, build 2.736319ms [lookups 181.1µs verts 1.290065ms buffers 1.094236ms], new pipelines 0 in 0ns, submit+present 1.611936ms)
+[2026-11-05T11:35:43Z INFO  game::audio] [audio] peak level over last second: 3085
+[2026-11-05T11:35:44Z INFO  game::gx_host] [gx] frame 8040: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.219561ms, convert 1.962085ms, wall 16.682914ms (gap 15.8ms..17.4ms), decodes 0
+[2026-11-05T11:35:44Z INFO  game::audio] [audio] peak level over last second: 2736
+[2026-11-05T11:35:45Z INFO  game::gx_render] [gx] render: 4.42182ms per presented frame (acquire 30.807µs, build 2.740833ms [lookups 181.677µs verts 1.289394ms buffers 1.09494ms], new pipelines 0 in 0ns, submit+present 1.614642ms)
+[2026-11-05T11:35:45Z INFO  game::audio] [audio] peak level over last second: 1976
+[2026-11-05T11:35:46Z INFO  game::gx_host] [gx] frame 8160: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.21796ms, convert 1.976324ms, wall 16.681106ms (gap 15.8ms..17.7ms), decodes 0
+[2026-11-05T11:35:46Z INFO  game::audio] [audio] peak level over last second: 1634
+[2026-11-05T11:35:47Z INFO  game::gx_render] [gx] render: 4.5128ms per presented frame (acquire 30.24µs, build 2.82837ms [lookups 183.77µs verts 1.338595ms buffers 1.126451ms], new pipelines 0 in 0ns, submit+present 1.617435ms)
+[2026-11-05T11:35:47Z INFO  game::vi] [vi] 600 frames: game busy 5.2 ms/frame avg, 0 skipped fields
+[2026-11-05T11:35:47Z INFO  game::audio] [audio] peak level over last second: 1697
+[2026-11-05T11:35:48Z INFO  game::gx_host] [gx] frame 8280: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.224813ms, convert 1.9952ms, wall 16.681656ms (gap 15.9ms..17.5ms), decodes 0
+[2026-11-05T11:35:48Z INFO  game::audio] [audio] peak level over last second: 1730
+[2026-11-05T11:35:49Z INFO  game::gx_render] [gx] render: 4.537675ms per presented frame (acquire 28.315µs, build 2.8016ms [lookups 179.554µs verts 1.341056ms buffers 1.100446ms], new pipelines 0 in 0ns, submit+present 1.666544ms)
+[2026-11-05T11:35:49Z INFO  game::audio] [audio] peak level over last second: 2026
+[2026-11-05T11:35:50Z INFO  game::gx_host] [gx] frame 8400: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.227316ms, convert 1.983506ms, wall 16.684135ms (gap 15.9ms..17.6ms), decodes 0
+[2026-11-05T11:35:50Z INFO  game::audio] [audio] peak level over last second: 2214
+[2026-11-05T11:35:51Z INFO  game::gx_render] [gx] render: 4.812087ms per presented frame (acquire 27.57µs, build 3.04196ms [lookups 182.192µs verts 1.37586ms buffers 1.301587ms], new pipelines 0 in 0ns, submit+present 1.700995ms)
+[2026-11-05T11:35:51Z INFO  game::audio] [audio] peak level over last second: 2086
+[2026-11-05T11:35:52Z INFO  game::gx_host] [gx] frame 8520: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.232274ms, convert 2.0265ms, wall 16.687871ms (gap 15.9ms..17.6ms), decodes 0
+[2026-11-05T11:35:52Z INFO  game::audio] [audio] peak level over last second: 2351
+[2026-11-05T11:35:53Z INFO  game::gx_render] [gx] render: 4.650972ms per presented frame (acquire 29.574µs, build 3.005283ms [lookups 189.265µs verts 1.44296ms buffers 1.182974ms], new pipelines 0 in 0ns, submit+present 1.57806ms)
+[2026-11-05T11:35:53Z INFO  game::audio] [audio] peak level over last second: 2182
+[2026-11-05T11:35:54Z INFO  game::gx_host] [gx] frame 8640: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.26845ms, convert 2.112678ms, wall 16.676461ms (gap 15.7ms..17.7ms), decodes 0
+[2026-11-05T11:35:54Z INFO  game::audio] [audio] peak level over last second: 2041
+[2026-11-05T11:35:55Z INFO  game::gx_render] [gx] render: 4.61642ms per presented frame (acquire 55.154µs, build 2.905441ms [lookups 188.816µs verts 1.36286ms buffers 1.166642ms], new pipelines 0 in 0ns, submit+present 1.617625ms)
+[2026-11-05T11:35:55Z INFO  game::audio] [audio] peak level over last second: 1909
+[2026-11-05T11:35:56Z INFO  game::gx_host] [gx] frame 8760: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.271755ms, convert 2.089679ms, wall 16.686154ms (gap 15.8ms..17.7ms), decodes 0
+[2026-11-05T11:35:56Z INFO  game::audio] [audio] peak level over last second: 1909
+[2026-11-05T11:35:57Z INFO  game::gx_render] [gx] render: 4.707174ms per presented frame (acquire 31.726µs, build 2.97776ms [lookups 191.25µs verts 1.395415ms buffers 1.204155ms], new pipelines 0 in 0ns, submit+present 1.658202ms)
+[2026-11-05T11:35:57Z INFO  game::vi] [vi] 600 frames: game busy 5.2 ms/frame avg, 0 skipped fields
+[2026-11-05T11:35:57Z INFO  game::audio] [audio] peak level over last second: 1525
+[2026-11-05T11:35:58Z INFO  game::gx_host] [gx] frame 8880: 1770 draws, 32284 vertices, 1627 texture binds; per frame: fifo 1.226754ms, convert 2.009694ms, wall 16.68066ms (gap 15.7ms..17.5ms), decodes 0
+[2026-11-05T11:35:58Z INFO  game::audio] [audio] peak level over last second: 4782
+[2026-11-05T11:35:59Z INFO  game::gx_render] [gx] render: 8.236305ms per presented frame (acquire 2.419439ms, build 3.465704ms [lookups 237.443µs verts 1.546989ms buffers 1.465525ms], new pipelines 1 in 594.5µs, submit+present 2.310645ms)
+[2026-11-05T11:35:59Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-05T11:36:00Z INFO  game::gx_host] [gx] frame 9000: 1629 draws, 30087 vertices, 1483 texture binds; per frame: fifo 1.71984ms, convert 2.703075ms, wall 17.105155ms (gap 14.6ms..32.7ms), decodes 0
+[2026-11-05T11:36:00Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-05T11:36:01Z INFO  game::gx_render] [gx] render: 7.218255ms per presented frame (acquire 1.897977ms, build 3.145457ms [lookups 204.009µs verts 1.356365ms buffers 1.410623ms], new pipelines 0 in 0ns, submit+present 2.138525ms)
+[2026-11-05T11:36:01Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-05T11:36:02Z INFO  game::gx_host] [gx] frame 9120: 2234 draws, 39649 vertices, 2056 texture binds; per frame: fifo 1.759834ms, convert 2.729636ms, wall 17.100287ms (gap 15.8ms..33.0ms), decodes 0
+[2026-11-05T11:36:02Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-05T11:36:03Z INFO  game::gx_render] [gx] render: 11.420846ms per presented frame (acquire 4.674281ms, build 3.946309ms [lookups 256.932µs verts 1.74933ms buffers 1.704581ms], new pipelines 0 in 0ns, submit+present 2.756417ms)
+[2026-11-05T11:36:03Z INFO  game::audio] [audio] peak level over last second: 29617
+[2026-11-05T11:36:04Z INFO  game::gx_host] [gx] frame 9240: 2528 draws, 45433 vertices, 2385 texture binds; per frame: fifo 1.839158ms, convert 2.983264ms, wall 16.826103ms (gap 14.6ms..33.3ms), decodes 0
+[2026-11-05T11:36:04Z INFO  game::audio] [audio] peak level over last second: 22866
+[2026-11-05T11:36:05Z INFO  game::audio] [audio] peak level over last second: 21905
+[2026-11-05T11:36:05Z INFO  game::gx_render] [gx] render: 16.814576ms per presented frame (acquire 9.601792ms, build 4.23963ms [lookups 263.96µs verts 1.879614ms buffers 1.848525ms], new pipelines 0 in 0ns, submit+present 2.931885ms)
+[2026-11-05T11:36:06Z INFO  game::gx_host] [gx] frame 9360: 2626 draws, 47031 vertices, 2487 texture binds; per frame: fifo 1.824945ms, convert 2.948762ms, wall 16.676878ms (gap 15.7ms..17.6ms), decodes 0
+[2026-11-05T11:36:06Z INFO  game::audio] [audio] peak level over last second: 22149
+[2026-11-05T11:36:07Z INFO  game::audio] [audio] peak level over last second: 24932
+[2026-11-05T11:36:07Z INFO  game::vi] [vi] 600 frames: game busy 10.3 ms/frame avg, 7 skipped fields
+[2026-11-05T11:36:07Z INFO  game::gx_render] [gx] render: 17.88817ms per presented frame (acquire 9.272297ms, build 4.651742ms [lookups 289.455µs verts 2.038216ms buffers 2.068246ms], new pipelines 0 in 0ns, submit+present 3.920093ms)
+[2026-11-05T11:36:08Z INFO  game::gx_host] [gx] frame 9480: 2626 draws, 46334 vertices, 2517 texture binds; per frame: fifo 1.943796ms, convert 3.136737ms, wall 16.68632ms (gap 15.7ms..17.6ms), decodes 0
+[2026-11-05T11:36:08Z INFO  game::audio] [audio] peak level over last second: 17554
+[2026-11-05T11:36:09Z INFO  game::audio] [audio] peak level over last second: 29338
+[2026-11-05T11:36:10Z INFO  game::gx_render] [gx] render: 17.91207ms per presented frame (acquire 9.072874ms, build 4.694303ms [lookups 374.646µs verts 2.016567ms buffers 2.037925ms], new pipelines 2 in 11.047ms, submit+present 4.100539ms)
+[2026-11-05T11:36:10Z INFO  game::gx_host] [gx] frame 9600: 2708 draws, 47259 vertices, 2598 texture binds; per frame: fifo 1.972407ms, convert 3.151978ms, wall 16.679021ms (gap 14.6ms..19.5ms), decodes 0
+[2026-11-05T11:36:10Z INFO  game::audio] [audio] peak level over last second: 25541
+[2026-11-05T11:36:11Z INFO  game::audio] [audio] peak level over last second: 21680
+[2026-11-05T11:36:12Z INFO  game::gx_host] [gx] frame 9720: 2528 draws, 45433 vertices, 2386 texture binds; per frame: fifo 1.942319ms, convert 3.079817ms, wall 16.682578ms (gap 15.6ms..17.9ms), decodes 0
+[2026-11-05T11:36:12Z INFO  game::audio] [audio] peak level over last second: 14313
+[2026-11-05T11:36:12Z INFO  game::gx_render] [gx] render: 17.374267ms per presented frame (acquire 8.686952ms, build 4.527147ms [lookups 274µs verts 1.983265ms buffers 2.009855ms], new pipelines 0 in 0ns, submit+present 4.11521ms)
+[2026-11-05T11:36:13Z INFO  game::audio] [audio] peak level over last second: 13659
+[2026-11-05T11:36:14Z INFO  game::gx_host] [gx] frame 9840: 2429 draws, 41203 vertices, 2268 texture binds; per frame: fifo 1.716706ms, convert 2.954944ms, wall 16.690585ms (gap 15.6ms..17.6ms), decodes 0
+[2026-11-05T11:36:14Z INFO  game::audio] [audio] peak level over last second: 28975
+[2026-11-05T11:36:14Z INFO  game::gx_render] [gx] render: 10.050055ms per presented frame (acquire 3.83111ms, build 3.863615ms [lookups 249.157µs verts 1.743822ms buffers 1.628362ms], new pipelines 0 in 0ns, submit+present 2.312548ms)
+[2026-11-05T11:36:15Z INFO  game::audio] [audio] peak level over last second: 30226
+[2026-11-05T11:36:16Z INFO  game::gx_host] [gx] frame 9960: 2605 draws, 46598 vertices, 2434 texture binds; per frame: fifo 1.6046ms, convert 2.747075ms, wall 16.680552ms (gap 15.5ms..17.7ms), decodes 0
+[2026-11-05T11:36:16Z INFO  game::audio] [audio] peak level over last second: 26576
+[2026-11-05T11:36:16Z INFO  game::gx_render] [gx] render: 7.43051ms per presented frame (acquire 1.623226ms, build 3.752118ms [lookups 229.139µs verts 1.672989ms buffers 1.623309ms], new pipelines 0 in 0ns, submit+present 2.016143ms)
+[2026-11-05T11:36:17Z INFO  game::audio] [audio] peak level over last second: 32058
+[2026-11-05T11:36:17Z INFO  game::vi] [vi] 600 frames: game busy 10.9 ms/frame avg, 3 skipped fields
+[2026-11-05T11:36:18Z INFO  game::audio] [audio] peak level over last second: 29724
+[2026-11-05T11:36:18Z INFO  game::gx_host] [gx] frame 10080: 2584 draws, 46538 vertices, 2410 texture binds; per frame: fifo 1.84046ms, convert 3.001091ms, wall 17.101281ms (gap 14.8ms..32.6ms), decodes 0
+[2026-11-05T11:36:18Z INFO  game::gx_render] [gx] render: 16.665128ms per presented frame (acquire 9.792289ms, build 4.1462ms [lookups 265.905µs verts 1.846514ms buffers 1.780119ms], new pipelines 0 in 0ns, submit+present 2.686653ms)
+[2026-11-05T11:36:19Z INFO  game::audio] [audio] peak level over last second: 25678
+[2026-11-05T11:36:20Z INFO  game::audio] [audio] peak level over last second: 25485
+[2026-11-05T11:36:20Z INFO  game::gx_host] [gx] frame 10200: 2575 draws, 46583 vertices, 2436 texture binds; per frame: fifo 2.002452ms, convert 3.256076ms, wall 16.957115ms (gap 15.1ms..31.9ms), decodes 0
+[2026-11-05T11:36:21Z INFO  game::gx_render] [gx] render: 17.924895ms per presented frame (acquire 8.833158ms, build 4.917665ms [lookups 287.588µs verts 2.119223ms buffers 2.228821ms], new pipelines 0 in 0ns, submit+present 4.127215ms)
+[2026-11-05T11:36:21Z INFO  game::audio] [audio] peak level over last second: 28695
+[2026-11-05T11:36:22Z INFO  game::audio] [audio] peak level over last second: 25746
+[2026-11-05T11:36:22Z INFO  game::gx_host] [gx] frame 10320: 2603 draws, 46976 vertices, 2460 texture binds; per frame: fifo 1.98912ms, convert 3.44524ms, wall 16.96072ms (gap 14.5ms..32.6ms), decodes 0
+[2026-11-05T11:36:23Z INFO  game::gx_render] [gx] render: 17.13353ms per presented frame (acquire 9.33564ms, build 4.40584ms [lookups 275.315µs verts 1.957929ms buffers 1.920636ms], new pipelines 0 in 0ns, submit+present 3.348424ms)
+[2026-11-05T11:36:23Z INFO  game::audio] [audio] peak level over last second: 28036
+[2026-11-05T11:36:24Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-05T11:36:24Z INFO  game::gx_host] [gx] frame 10440: 2064 draws, 35119 vertices, 1895 texture binds; per frame: fifo 1.888365ms, convert 3.101791ms, wall 16.969662ms (gap 15.1ms..33.1ms), decodes 0
+[2026-11-05T11:36:25Z INFO  game::audio] [audio] peak level over last second: 31465
+[2026-11-05T11:36:25Z INFO  game::gx_render] [gx] render: 10.662537ms per presented frame (acquire 4.101279ms, build 3.89251ms [lookups 377.603µs verts 1.63962ms buffers 1.651065ms], new pipelines 2 in 16.6547ms, submit+present 2.623355ms)
+[2026-11-05T11:36:26Z INFO  game::audio] [audio] peak level over last second: 24532
+[2026-11-05T11:36:26Z INFO  game::gx_host] [gx] frame 10560: 2338 draws, 40309 vertices, 2236 texture binds; per frame: fifo 1.716345ms, convert 2.687323ms, wall 16.953605ms (gap 15.3ms..33.9ms), decodes 0
+[2026-11-05T11:36:27Z INFO  game::audio] [audio] peak level over last second: 32768
+[2026-11-05T11:36:27Z INFO  game::gx_render] [gx] render: 11.519409ms per presented frame (acquire 5.19846ms, build 3.687145ms [lookups 229.403µs verts 1.646907ms buffers 1.602236ms], new pipelines 0 in 0ns, submit+present 2.591168ms)
+[2026-11-05T11:36:27Z INFO  game::vi] [vi] 600 frames: game busy 11.4 ms/frame avg, 8 skipped fields
+[2026-11-05T11:36:28Z INFO  game::audio] [audio] peak level over last second: 31285
+[2026-11-05T11:36:28Z INFO  game::gx_host] [gx] frame 10680: 2642 draws, 48038 vertices, 2438 texture binds; per frame: fifo 1.785369ms, convert 2.855407ms, wall 16.820347ms (gap 15.5ms..33.5ms), decodes 0
+[2026-11-05T11:36:29Z INFO  game::audio] [audio] peak level over last second: 24543
+[2026-11-05T11:36:29Z INFO  game::gx_render] [gx] render: 15.006036ms per presented frame (acquire 7.17799ms, build 4.386992ms [lookups 265.657µs verts 1.926599ms buffers 1.954652ms], new pipelines 0 in 0ns, submit+present 3.395074ms)
+[2026-11-05T11:36:30Z INFO  game::audio] [audio] peak level over last second: 26157
+[2026-11-05T11:36:30Z INFO  game::gx_host] [gx] frame 10800: 2734 draws, 47694 vertices, 2561 texture binds; per frame: fifo 1.916328ms, convert 3.070972ms, wall 16.96465ms (gap 13.5ms..34.0ms), decodes 0
+[2026-11-05T11:36:31Z INFO  game::audio] [audio] peak level over last second: 19650
+[2026-11-05T11:36:32Z INFO  game::gx_render] [gx] render: 16.43743ms per presented frame (acquire 9.317219ms, build 4.236465ms [lookups 265.285µs verts 1.934162ms buffers 1.795876ms], new pipelines 0 in 0ns, submit+present 2.843783ms)
+[2026-11-05T11:36:32Z INFO  game::audio] [audio] peak level over last second: 2983
+[2026-11-05T11:36:32Z INFO  game::gx_host] [gx] frame 10920: 2183 draws, 39477 vertices, 2002 texture binds; per frame: fifo 1.801045ms, convert 2.76281ms, wall 16.676111ms (gap 15.8ms..17.7ms), decodes 0
+[2026-11-05T11:36:33Z INFO  game] [quit] Esc prompt: yes
