@@ -1,6 +1,7 @@
 Super Smash Bros. Melee (NTSC 1.02) - native PC port
 =====================================================
 
+you will need the iso for  Super Smash Bros. Melee (NTSC 1.02) to
 Start "Melee Launcher.exe", choose your settings and press PLAY.
 
 Files
